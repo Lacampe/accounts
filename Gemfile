@@ -7,12 +7,16 @@ gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
+# Bootstrap
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
+# React
+gem 'react-rails', '~> 1.10'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
@@ -33,6 +37,10 @@ gem 'jbuilder', '~> 2.5'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  #Better Errors
+  gem 'better_errors', '~> 2.1', '>= 2.1.1'
+  #Binding of Caller
+  gem 'binding_of_caller', '~> 0.7.2'
 end
 
 group :development do
